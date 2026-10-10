@@ -1,0 +1,59 @@
+/*. Element Selector*/
+body{
+    font-family: Arial, sans-serif;
+    background-color: lightgrey;
+    margin: 20px;
+}
+/*. Element Selector*/
+h1{
+    color: blue;
+    text-align: center;
+}
+/*. Class Selector*/
+.heading{
+    color: red;
+    background-color: yellow;
+    padding: 10px;
+
+}
+/*. Element Selector*/
+.text{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*. ID Selector*/
+#title{
+    color: white;
+    background-color: purple;
+    text-align: center;
+    padding: 15px;
+}
+/*. backround picture*/
+.box{
+    background-image: url(./img/Bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid black;
+border-radius: 15px;
+}
+/*. button Design*/
+button{
+    background-color: blue;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/*. Hover Effect*/
+button:hover{
+    background-color: green;
+
+}
